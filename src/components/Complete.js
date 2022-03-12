@@ -13,11 +13,11 @@ export default function Complete(props) {
     title = 'Straight Up Villain'
     style = 'evelynn'
     message = 'A perfect score... You either cheated or exploited a very obvious bug— Evelynn approves.'
-  } else if (props.turns <= 8) {
+  } else if (props.turns <= 9) {
     title = 'The Baddest'
     style = 'akali'
     message = 'Cuz that\'s what the baddest do.'
-  } else if (props.turns <= 10) {
+  } else if (props.turns <= 12) {
     title = 'Drum Go Dum'
     style = 'kaisa'
     message = 'Maybe the thought of Kai\'sa shaking it in your face distracted you a couple of times...'
