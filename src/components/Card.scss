@@ -21,8 +21,8 @@
     }
 
     &.flipped {
-      //pointer-events: none;
-      // // bug fix lol
+      pointer-events: none;
+      // bugfix lol
 
       .card-front {
         transform: rotate(0);

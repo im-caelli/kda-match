@@ -48,8 +48,6 @@ function App() {
       setDisabled(true)
       
       if (pickOne.type === pickTwo.type){
-
-        console.log("It's a match!")
         
         setCards(prevCards => {
           return prevCards.map(card => {
@@ -65,7 +63,6 @@ function App() {
 
       } else {
 
-        console.log("Womp Womp...")
         setTimeout(() => resetTurn(), 1000)
 
       }
@@ -85,14 +82,8 @@ function App() {
       if (cards.length !== 0) {
         setTimeout(() => {
           if (cards.every(card => card.matched)) {
-            console.log('Game complete!')
             setCompleteModalShow(true)
-          } else {
-            console.log('Continue...')
           }
-      
-          console.log(cards)
-          console.log('match check not empty: ' + cards.every(card => card.matched))
         }, [500])
       }
       

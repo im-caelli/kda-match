@@ -43,7 +43,7 @@ export default function Complete(props) {
             <div className='modal-kda-c-content-text'>
               <h2>{ title }</h2>
               <p>
-                {isAhri ? (<span>Bestie... it took you <span className='modal-kda-turns'>{props.turns}</span> turns.</span>) : (<span>  You did it in <span className='modal-kda-turns'>{props.turns}</span> turns! </span>) }
+                {isAhri ? (<span>Bestie... it took you <span className='modal-kda-c-turns'>{props.turns}</span> turns.</span>) : (<span>  You did it in <span className='modal-kda-c-turns'>{props.turns}</span> turns! </span>) }
               
                 <br /><br />
                 { message } 

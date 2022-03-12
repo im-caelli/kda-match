@@ -6,7 +6,6 @@ export default function Card({ card, handleChoice, flipped, disabled}) {
   const pickCard = () => {
     if(!disabled){
       handleChoice(card)
-      console.log(card)
     }
   }
 
