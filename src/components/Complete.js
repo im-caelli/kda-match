@@ -36,7 +36,7 @@ export default function Complete(props) {
       aria-labelledby="contained-modal-title-vcenter"
       centered
     >
-      <Modal.Body className='modal-complete'>
+      <Modal.Body className={`modal-complete ${style}`}>
         <h4>{ title }</h4>
         <p>
           You did it in {props.turns} turns! <br />
