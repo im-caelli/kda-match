@@ -1,0 +1,46 @@
+.card {
+  &-item {
+    width:100%;
+    position: relative;
+
+    @media screen and (min-width: 768px){
+      width: 150px;
+      height: 225px;
+    }
+
+    &.flipped {
+      pointer-events: none;
+      // bug fix lol
+
+      .card-front {
+        transform: rotate(0);
+        transition-delay: 0.2s;
+      }
+
+      .card-back {
+        transform: rotateY(90deg);
+        transition-delay: 0s;
+      }
+    }
+  }
+
+  &-img {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border: 5px solid #f1f1f1;
+    border-radius: .5rem;
+  }
+
+  &-front {
+    transform: rotateY(90deg);
+    transition: all ease-in 0.2s;
+    position: absolute;
+  }
+
+  &-back {
+    transition: all ease-in 0.2s;
+    transition-delay: 0.2s;
+  }
+
+}

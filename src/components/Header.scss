@@ -1,0 +1,39 @@
+.header {
+  background-color: #f1f1f1;
+  display: flex;
+
+  h1, .nav, .score {
+    flex: 1 1 auto;
+  }
+
+  h1 {
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    margin: 0;
+  }
+
+  .nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+    a {
+      display: block;
+      padding: .5rem;
+      text-decoration: none;
+      
+      &:hover {
+        color: #f1f1f1;
+        background-color: #333;
+      }
+    }
+  }
+
+  .score {
+    text-align: center;
+    padding: .5rem;
+    background-color: red;
+  }
+}
