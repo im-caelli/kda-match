@@ -29,7 +29,7 @@
   &-img {
     display: block;
     width: 100%;
-    border: 5px solid #f1f1f1;
+    border: 5px solid $light;
     border-radius: .5rem;
     @include shadow-sharp();
   }
