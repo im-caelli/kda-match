@@ -4,7 +4,7 @@ A KDA themed card matching game.
 
 ## Why
 
-I miss these bitches.
+I miss these bitches. And it's just nicer to practice learned things by making it about things I like.
 
 ## Assets / Resources / Credits
 
