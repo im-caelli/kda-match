@@ -26,8 +26,6 @@
     display: flex;
     flex-direction: row-reverse;
 
-       
-
     &-text {
       padding: 2rem;
     }
@@ -45,6 +43,11 @@
   p {
     margin: 2rem auto;
     font-weight: 300;
+  }
+
+  &-turns {
+    font-weight: 900;
+    color: $blue;
   }
 
   &-btn {
