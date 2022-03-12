@@ -121,7 +121,7 @@ function App() {
   return (
     <div className="App">
      {/* <p><button onClick={shuffleCards}>New Games</button> | {turns}</p> */}
-     <Header turns={turns} />
+     <Header turns={turns} reset={shuffleCards} />
      <div className="card-board">
        {cards.map( card => (
          <Card 
