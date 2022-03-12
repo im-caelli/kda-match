@@ -4,6 +4,16 @@
   &-item {
     width:100%;
     position: relative;
+    
+    &:hover {
+      cursor: pointer;
+
+      .card-back {
+        border-color: $blue;
+        background-color: $dark-off;
+        @include shadow-diffuse();
+      }
+    }
 
     @media screen and (min-width: 768px){
       width: 150px;
