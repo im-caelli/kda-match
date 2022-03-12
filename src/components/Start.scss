@@ -1,0 +1,55 @@
+@import '../variables';
+
+.modal-start {
+  font-family: $font-family;
+  font-weight: 400;
+  color: $light;
+
+  .modal-content {
+    border: 0;
+    border-radius: 0;
+  }
+
+  .modal-body {
+    background-color: $dark;
+  }
+
+  &-content-wrapper {
+    @include azure-lane(left);
+    padding:3px;
+  }
+
+  &-content {
+    background-color: $dark;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  h2 {
+    display: inline-block;
+    margin: auto;
+    font-weight: 900;
+    @include azure-lane(right);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  p {
+    margin: 2rem auto;
+  }
+
+  &-btn {
+    border-radius: 0;
+    border:0;
+    padding: 0.5rem 2rem;
+    font-weight: 900;
+    @include azure-lane(left);
+    letter-spacing: 5px;
+    transition: all ease-in-out 0.2s;
+
+    &:hover {
+      @include shadow-diffuse();
+      transform: scale(1.1, 1.1);
+    }
+  }
+}
