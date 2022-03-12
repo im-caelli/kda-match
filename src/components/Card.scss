@@ -1,3 +1,5 @@
+@import "../variables";
+
 .card {
   &-item {
     width:100%;
@@ -26,10 +28,10 @@
 
   &-img {
     display: block;
-    box-sizing: border-box;
     width: 100%;
     border: 5px solid #f1f1f1;
     border-radius: .5rem;
+    @include shadow-sharp();
   }
 
   &-front {
@@ -41,6 +43,7 @@
   &-back {
     transition: all ease-in 0.2s;
     transition-delay: 0.2s;
+    background: $dark;
   }
 
 }

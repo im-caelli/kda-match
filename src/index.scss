@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
+@import '_variables.scss';
+
+body {
+  margin: 0;
+  background-color: #333;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+  @include azure-lane-pattern();
+}
+
+body::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
