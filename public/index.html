@@ -4,39 +4,31 @@
     <meta charset="utf-8" />
     <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile dev ice or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    
+    <meta name="keywords" content="Caelli, im-caelli, im.caelli, im_caelli, KDA, K/DA, KDA Match Game">
+    <meta property="og:title" content="K/DA Match by Caelli">
+    <meta property="og:description" content="A K/DA themed card matching game.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cael.li/kda-match" />
+    <meta property="og:image" content="https://cael.li/kda-match/img/card.png" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+    <!-- Twitter Summary Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@im_caelli">
+    <meta name="twitter:site" content="@im_caelli">
+    <meta name="twitter:title" content="K/DA Match by Caelli">
+    <meta name="twitter:description" content="A KDA themed card matching game.">
+    <meta name="twitter:image:src" content="https://cael.li/kda-match/img/card.png" />
+
+
     <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
-
-    <script
-      src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
-      crossorigin></script>
-
-    <script
-      src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
-      crossorigin></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js" crossorigin></script>
     
     <script>var Alert = ReactBootstrap.Alert;</script>
 
-    <title>React App</title>
+    <title>K/DA Match by Caelli</title>
+    <meta name="description" content="A KDA themed card matching game.">
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -51,5 +43,18 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177508404-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-177508404-1');
+    </script>
   </body>
 </html>
