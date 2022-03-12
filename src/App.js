@@ -93,7 +93,7 @@ function App() {
       
           console.log(cards)
           console.log('match check not empty: ' + cards.every(card => card.matched))
-        }, [1000])
+        }, [500])
       }
       
   }, [pickTwo])

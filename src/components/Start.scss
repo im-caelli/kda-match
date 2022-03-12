@@ -1,6 +1,6 @@
 @import '../variables';
 
-.modal-start {
+.modal-kda {
   font-family: $font-family;
   font-weight: 400;
   color: $light;
@@ -45,12 +45,16 @@
     padding: 0.5rem 2rem;
     font-weight: 900;
     @include azure-lane(left);
-    letter-spacing: 5px;
-    transition: all ease-in-out 0.2s;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    transition: all ease-in 0.1s;
+    font-family: $font-kda;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
 
     &:hover {
-      @include shadow-diffuse();
-      transform: scale(1.1, 1.1);
+      @include shadow-sharp();
+      transform: scale(1.048, 1.048) translateZ(0);
     }
   }
 }

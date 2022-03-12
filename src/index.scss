@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+@font-face {
+  font-family: 'KDAFont';
+  src: local('KDAFont'),
+  url("./font/KDA.otf") format("opentype"),
+  url("./font/KDA.ttf") format("truetype");
+  font-weight: 400;
+}
 
 @import '_variables.scss';
 
