@@ -39,9 +39,13 @@
   &-img {
     display: block;
     width: 100%;
-    border: 5px solid $light;
+    border: 2px solid $light;
     border-radius: .5rem;
     @include shadow-sharp();
+
+    @media #{$md-break} {
+      border-width: 5px;
+    }
   }
 
   &-front {
