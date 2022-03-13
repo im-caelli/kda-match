@@ -70,8 +70,21 @@
   }
 
   &-content-text {
-    width: 60%;
+    width: 100%;
     position: relative;
+
+    @media #{$lg-break} {
+      width: 60%;
+    }
+
+    iframe {
+      width: 100%;
+      height: auto;
+
+      @media #{$md-break} {
+        width: auto;
+      }
+    }
   }
 
   &-content-bgimg {
@@ -79,6 +92,12 @@
     background-size: cover;
     width: 40%;
     clip-path: polygon(40% 0, 100% 0%, 100% 100%, 0% 100%);
+    display: none;
+
+    @media #{$lg-break} {
+      display: block;
+    }
+    
   }
 
   .evelynn {
