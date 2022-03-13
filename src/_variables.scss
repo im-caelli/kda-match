@@ -7,6 +7,24 @@ $light: #f2f2f2;
 $dark: #1b1b1b;
 $dark-off: #1e1e1e;
 
+// BS
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;
+
+$xl-break: "screen and (min-width:" + map_get($grid-breakpoints, 'xl') +")";
+$lg-break: "screen and (min-width:" + map_get($grid-breakpoints, 'lg') +")";
+$md-break: "screen and (min-width:" + map_get($grid-breakpoints, 'md') +")";
+$sm-break: "screen and (min-width:" + map_get($grid-breakpoints, 'sm') +")";
+$xs-break: "screen and (max-width:" + map_get($grid-breakpoints, 'xs') +")";
+
+
+/* Mixins */
+
 @mixin azure-lane($dir) {
   background: #7F7FD5;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to $dir, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
