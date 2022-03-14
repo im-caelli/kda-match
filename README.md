@@ -4,11 +4,12 @@ A KDA themed card matching game.
 
 ## Why
 
-I miss these bitches. And it's just nicer to practice learned things by making it about things I like.
+Picked up react and it's just nicer to practice learned things by making it about things I like. Also I miss the girls 😭.
 
 ## Notes
 
-- Not optimized for small screen
+- Best viewed in md to lg sized screens
+- Feel free to report issues at: [Issues](https://github.com/im-caelli/kda-match/issues)
 
 ## Assets / Resources / Credits
 
