@@ -10,7 +10,7 @@ Picked up react and it's just nicer to practice learned things by making it abou
 
 - Best viewed in md to lg sized screens
 - Feel free to report issues at: [Issues](https://github.com/im-caelli/kda-match/issues)
-- I'm on twitter: [im_caelli on Twitter](https://twitter.com/im_caelli) 😊
+- I'm on twitter: [im_caelli](https://twitter.com/im_caelli) 😊
 
 ## Assets / Resources / Credits
 
