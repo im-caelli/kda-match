@@ -22,8 +22,8 @@
 
     &.flipped {
       pointer-events: none;
-      // bugfix lol
-
+      // "It's a feature not a bug." ( ͡° ͜ʖ ͡°) 
+      
       .card-front {
         transform: rotate(0);
         transition-delay: 0.2s;
